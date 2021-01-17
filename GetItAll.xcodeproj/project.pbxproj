@@ -33,16 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E9E551025B443C500AA4A5F /* GetItAllConnected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItAllConnected.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E551025B443C500AA4A5F /* GetItAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedApp.swift; sourceTree = "<group>"; };
 		6E9E551525B443C500AA4A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E9E551725B443C600AA4A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9E551A25B443C600AA4A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E9E551C25B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552125B443C600AA4A5F /* GetItAllConnectedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllConnectedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E552525B443C600AA4A5F /* GetItAllConnectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedTests.swift; sourceTree = "<group>"; };
 		6E9E552725B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllConnectedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E553025B443C600AA4A5F /* GetItAllConnectedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedUITests.swift; sourceTree = "<group>"; };
 		6E9E553225B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 		6E9E551125B443C500AA4A5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E9E551025B443C500AA4A5F /* GetItAllConnected.app */,
-				6E9E552125B443C600AA4A5F /* GetItAllConnectedTests.xctest */,
-				6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests.xctest */,
+				6E9E551025B443C500AA4A5F /* GetItAll.app */,
+				6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */,
+				6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E9E550F25B443C500AA4A5F /* GetItAllConnected */ = {
+		6E9E550F25B443C500AA4A5F /* GetItAll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E9E553525B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnected" */;
+			buildConfigurationList = 6E9E553525B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAll" */;
 			buildPhases = (
 				6E9E550C25B443C500AA4A5F /* Sources */,
 				6E9E550D25B443C500AA4A5F /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = GetItAllConnected;
+			name = GetItAll;
 			productName = GetItAllConnected;
-			productReference = 6E9E551025B443C500AA4A5F /* GetItAllConnected.app */;
+			productReference = 6E9E551025B443C500AA4A5F /* GetItAll.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E9E552025B443C600AA4A5F /* GetItAllConnectedTests */ = {
+		6E9E552025B443C600AA4A5F /* GetItAllTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E9E553825B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnectedTests" */;
+			buildConfigurationList = 6E9E553825B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllTests" */;
 			buildPhases = (
 				6E9E551D25B443C600AA4A5F /* Sources */,
 				6E9E551E25B443C600AA4A5F /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				6E9E552325B443C600AA4A5F /* PBXTargetDependency */,
 			);
-			name = GetItAllConnectedTests;
+			name = GetItAllTests;
 			productName = GetItAllConnectedTests;
-			productReference = 6E9E552125B443C600AA4A5F /* GetItAllConnectedTests.xctest */;
+			productReference = 6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6E9E552B25B443C600AA4A5F /* GetItAllConnectedUITests */ = {
+		6E9E552B25B443C600AA4A5F /* GetItAllUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E9E553B25B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnectedUITests" */;
+			buildConfigurationList = 6E9E553B25B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllUITests" */;
 			buildPhases = (
 				6E9E552825B443C600AA4A5F /* Sources */,
 				6E9E552925B443C600AA4A5F /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				6E9E552E25B443C600AA4A5F /* PBXTargetDependency */,
 			);
-			name = GetItAllConnectedUITests;
+			name = GetItAllUITests;
 			productName = GetItAllConnectedUITests;
-			productReference = 6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests.xctest */;
+			productReference = 6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E9E550B25B443C500AA4A5F /* Build configuration list for PBXProject "GetItAllConnected" */;
+			buildConfigurationList = 6E9E550B25B443C500AA4A5F /* Build configuration list for PBXProject "GetItAll" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E9E550F25B443C500AA4A5F /* GetItAllConnected */,
-				6E9E552025B443C600AA4A5F /* GetItAllConnectedTests */,
-				6E9E552B25B443C600AA4A5F /* GetItAllConnectedUITests */,
+				6E9E550F25B443C500AA4A5F /* GetItAll */,
+				6E9E552025B443C600AA4A5F /* GetItAllTests */,
+				6E9E552B25B443C600AA4A5F /* GetItAllUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		6E9E552325B443C600AA4A5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E9E550F25B443C500AA4A5F /* GetItAllConnected */;
+			target = 6E9E550F25B443C500AA4A5F /* GetItAll */;
 			targetProxy = 6E9E552225B443C600AA4A5F /* PBXContainerItemProxy */;
 		};
 		6E9E552E25B443C600AA4A5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E9E550F25B443C500AA4A5F /* GetItAllConnected */;
+			target = 6E9E550F25B443C500AA4A5F /* GetItAll */;
 			targetProxy = 6E9E552D25B443C600AA4A5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetItAllConnected.app/GetItAllConnected";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetItAll.app/GetItAll";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetItAllConnected.app/GetItAllConnected";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetItAll.app/GetItAll";
 			};
 			name = Release;
 		};
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E9E550B25B443C500AA4A5F /* Build configuration list for PBXProject "GetItAllConnected" */ = {
+		6E9E550B25B443C500AA4A5F /* Build configuration list for PBXProject "GetItAll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E9E553325B443C600AA4A5F /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E9E553525B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnected" */ = {
+		6E9E553525B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E9E553625B443C600AA4A5F /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E9E553825B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnectedTests" */ = {
+		6E9E553825B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E9E553925B443C600AA4A5F /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E9E553B25B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllConnectedUITests" */ = {
+		6E9E553B25B443C600AA4A5F /* Build configuration list for PBXNativeTarget "GetItAllUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E9E553C25B443C600AA4A5F /* Debug */,
