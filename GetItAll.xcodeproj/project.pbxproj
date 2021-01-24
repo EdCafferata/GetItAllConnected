@@ -72,6 +72,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E28657725BDAE4400168D5F /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		6E28657825BDAE5300168D5F /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		6E9E550725B443C500AA4A5F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,8 @@
 		6E9E551225B443C500AA4A5F /* GetItAllConnected */ = {
 			isa = PBXGroup;
 			children = (
+				6E28657825BDAE5300168D5F /* data */,
+				6E28657725BDAE4400168D5F /* login */,
 				6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */,
 				6E9E551525B443C500AA4A5F /* ContentView.swift */,
 				6E9E551725B443C600AA4A5F /* Assets.xcassets */,
