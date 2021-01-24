@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E28657A25BE186100168D5F /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28657925BE186100168D5F /* login.swift */; };
+		6E28658225BE187100168D5F /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28658125BE187100168D5F /* data.swift */; };
 		6E9E551425B443C500AA4A5F /* GetItAllConnectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */; };
 		6E9E551625B443C500AA4A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E551525B443C500AA4A5F /* ContentView.swift */; };
 		6E9E551825B443C600AA4A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E551725B443C600AA4A5F /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E28657925BE186100168D5F /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		6E28658125BE187100168D5F /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		6E9E551025B443C500AA4A5F /* GetItAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedApp.swift; sourceTree = "<group>"; };
 		6E9E551525B443C500AA4A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 		6E28657725BDAE4400168D5F /* login */ = {
 			isa = PBXGroup;
 			children = (
+				6E28657925BE186100168D5F /* login.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 		6E28657825BDAE5300168D5F /* data */ = {
 			isa = PBXGroup;
 			children = (
+				6E28658125BE187100168D5F /* data.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E9E551625B443C500AA4A5F /* ContentView.swift in Sources */,
+				6E28657A25BE186100168D5F /* login.swift in Sources */,
 				6E9E551425B443C500AA4A5F /* GetItAllConnectedApp.swift in Sources */,
+				6E28658225BE187100168D5F /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
