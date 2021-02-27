@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		6E28657925BE186100168D5F /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		6E28658125BE187100168D5F /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		6E9E551025B443C500AA4A5F /* GetItAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E551025B443C500AA4A5F /* GetItAllConnected */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GetItAllConnected; path = ../../../../../../../../Documents/GetItAllConnected/GetItAllConnected; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedApp.swift; sourceTree = "<group>"; };
 		6E9E551525B443C500AA4A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E9E551725B443C600AA4A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		6E9E551125B443C500AA4A5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E9E551025B443C500AA4A5F /* GetItAll.app */,
+				6E9E551025B443C500AA4A5F /* GetItAllConnected */,
 				6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */,
 				6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */,
 			);
@@ -169,7 +169,7 @@
 			);
 			name = GetItAll;
 			productName = GetItAllConnected;
-			productReference = 6E9E551025B443C500AA4A5F /* GetItAll.app */;
+			productReference = 6E9E551025B443C500AA4A5F /* GetItAllConnected */;
 			productType = "com.apple.product-type.application";
 		};
 		6E9E552025B443C600AA4A5F /* GetItAllTests */ = {
