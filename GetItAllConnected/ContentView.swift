@@ -1,10 +1,8 @@
 //
 //  ContentView.swift
 //  GetItAllConnected
-//
 //  Created by Ed Cafferata on 17/01/2021.(start)
 //
-
 import SwiftUI
 
 struct ContentView: View {
