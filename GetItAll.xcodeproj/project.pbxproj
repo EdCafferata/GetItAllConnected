@@ -39,16 +39,16 @@
 /* Begin PBXFileReference section */
 		6E28657925BE186100168D5F /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		6E28658125BE187100168D5F /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		6E9E551025B443C500AA4A5F /* GetItAll */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GetItAll; path = ../../../../../../../../Documents/GetItAllConnected/GetItAll; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E551025B443C500AA4A5F /* GetItAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedApp.swift; sourceTree = "<group>"; };
 		6E9E551525B443C500AA4A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E9E551725B443C600AA4A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9E551A25B443C600AA4A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E9E551C25B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedTests; path = ../../../../../../../../Documents/GetItAllConnected/GetItAllConnectedTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedTests; path = GetItAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E552525B443C600AA4A5F /* GetItAllConnectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedTests.swift; sourceTree = "<group>"; };
 		6E9E552725B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedUITests; path = ../../../../../../../../Documents/GetItAllConnected/GetItAllConnectedUITests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedUITests; path = GetItAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E553025B443C600AA4A5F /* GetItAllConnectedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedUITests.swift; sourceTree = "<group>"; };
 		6E9E553225B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 		6E9E551125B443C500AA4A5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E9E551025B443C500AA4A5F /* GetItAll */,
+				6E9E551025B443C500AA4A5F /* GetItAll.app */,
 				6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */,
 				6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */,
 			);
@@ -171,7 +171,7 @@
 			);
 			name = GetItAll;
 			productName = GetItAllConnected;
-			productReference = 6E9E551025B443C500AA4A5F /* GetItAll */;
+			productReference = 6E9E551025B443C500AA4A5F /* GetItAll.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6E9E552025B443C600AA4A5F /* GetItAllTests */ = {
@@ -446,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"GetItAllConnected/Preview Content\"";
 				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_PREVIEWS = YES;
@@ -469,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"GetItAllConnected/Preview Content\"";
 				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_PREVIEWS = YES;
