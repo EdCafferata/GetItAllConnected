@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E16A6FD25EBDDB00093FA5A /* GetItAllConnectedUITests in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */; };
-		6E16A70125EBDDB40093FA5A /* GetItAllConnectedTests in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */; };
+		6E16A6FD25EBDDB00093FA5A /* GetItAllUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */; };
+		6E16A70125EBDDB40093FA5A /* GetItAllTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */; };
 		6E28657A25BE186100168D5F /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28657925BE186100168D5F /* login.swift */; };
 		6E28658225BE187100168D5F /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28658125BE187100168D5F /* data.swift */; };
 		6E9E551425B443C500AA4A5F /* GetItAllConnectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E551325B443C500AA4A5F /* GetItAllConnectedApp.swift */; };
@@ -45,10 +45,10 @@
 		6E9E551725B443C600AA4A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9E551A25B443C600AA4A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E9E551C25B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedTests; path = GetItAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E552525B443C600AA4A5F /* GetItAllConnectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedTests.swift; sourceTree = "<group>"; };
 		6E9E552725B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GetItAllConnectedUITests; path = GetItAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E553025B443C600AA4A5F /* GetItAllConnectedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItAllConnectedUITests.swift; sourceTree = "<group>"; };
 		6E9E553225B443C600AA4A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				6E9E551025B443C500AA4A5F /* GetItAll.app */,
-				6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */,
-				6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */,
+				6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */,
+				6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			);
 			name = GetItAllTests;
 			productName = GetItAllConnectedTests;
-			productReference = 6E9E552125B443C600AA4A5F /* GetItAllConnectedTests */;
+			productReference = 6E9E552125B443C600AA4A5F /* GetItAllTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		6E9E552B25B443C600AA4A5F /* GetItAllUITests */ = {
@@ -207,7 +207,7 @@
 			);
 			name = GetItAllUITests;
 			productName = GetItAllConnectedUITests;
-			productReference = 6E9E552C25B443C600AA4A5F /* GetItAllConnectedUITests */;
+			productReference = 6E9E552C25B443C600AA4A5F /* GetItAllUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,8 +216,9 @@
 		6E9E550825B443C500AA4A5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					6E9E550F25B443C500AA4A5F = {
 						CreatedOnToolsVersion = 12.3;
@@ -266,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E16A70125EBDDB40093FA5A /* GetItAllConnectedTests in Resources */,
+				6E16A70125EBDDB40093FA5A /* GetItAllTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E16A6FD25EBDDB00093FA5A /* GetItAllConnectedUITests in Resources */,
+				6E16A6FD25EBDDB00093FA5A /* GetItAllUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +360,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -380,6 +383,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -420,8 +424,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -434,6 +440,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -448,10 +455,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"GetItAllConnected/Preview Content\"";
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GetItAllConnected/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,10 +478,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"GetItAllConnected/Preview Content\"";
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GetItAllConnected/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,10 +496,8 @@
 		6E9E553925B443C600AA4A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				INFOPLIST_FILE = GetItAllConnectedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,10 +516,8 @@
 		6E9E553A25B443C600AA4A5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				INFOPLIST_FILE = GetItAllConnectedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,9 +536,7 @@
 		6E9E553C25B443C600AA4A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				INFOPLIST_FILE = GetItAllConnectedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,9 +554,7 @@
 		6E9E553D25B443C600AA4A5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				INFOPLIST_FILE = GetItAllConnectedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
