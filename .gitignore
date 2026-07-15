@@ -1,0 +1,33 @@
+# Claude Code
+.claude/
+
+# Gevoelige bestanden (nooit committen)
+.env
+.env.*
+*.p8
+*.p12
+*.pem
+*.mobileprovision
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcuserstate
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# macOS
+.DS_Store
